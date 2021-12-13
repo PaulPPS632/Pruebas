@@ -1,0 +1,27 @@
+p{
+    margin-bottom: 30px;
+}
+main{
+    background-color: #000 ;
+}
+.container-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.imagenes{
+    position: absolute;
+    width: 95%;
+    max-width: 1332px;
+}
+.container-texto{
+    display: fixed;
+    position: relative;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.8;
+    font-size: 15px;
+}
