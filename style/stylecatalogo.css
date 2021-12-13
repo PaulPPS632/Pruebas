@@ -1,0 +1,38 @@
+.main-container{
+    justify-content: center;
+    margin: 140px 150px 150px 150px;
+}
+.titulo{
+    font-size: 60px;
+    text-align: center;
+}
+.main-grid-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-template-rows: repeat(13, 300px);
+    text-align: center;
+    background-color: #fff;
+    grid-gap: 10px ;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #9b9b9b;
+    background-color: #f8f8f8;
+}
+.card img{
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+    margin: 10px 10px;
+}
+.card:hover{
+    background-color: #e0e0e0;
+    border: 1px solid #4b4a4a;
+    transition: all .5s;
+}
+.card:hover > img{
+    height: 65%;
+    width: 65%;
+    transition: all .5s;
+}

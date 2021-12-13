@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon{
+    display: none;
+}
+.logo{
+    font-size: 30px;
+}
+.header{
+    height: 90px;
+    background-color: #acacac;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    text-align: center;
+    align-content: center;
+}
+.container li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.container a{
+    text-decoration-line: none;
+    color: #000000;
+    transition: all .5s;
+}
+.container li a:hover{
+    text-decoration-line: underline ;
+    text-decoration-color: #744222;
+    color: #744222;
+}
+.footer{
+    background-color: #555;
+    padding: 4rem;
+    text-align: center;
+    z-index: 10;
+}
